@@ -182,7 +182,7 @@ while True:
             print("韓式泡菜牛肉海苔飯捲")
             print("黑胡椒牛肉海苔飯捲")
             print("鐵板牛肉海苔飯捲")
-        elif int(a)>2000:
+        elif int(a)>=2000:
             print("你幾乎都吃得起了！")
     except:
         print("這不是數字字元！")
