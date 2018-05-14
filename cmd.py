@@ -1,6 +1,14 @@
 import os
+import platform
+
+print(platform.system())  #列出這台電腦的作業系統
+
 d = []
 os.system('start testrpc --gaslimit 5000000')  #執行cmd指令
+
+#linux的是 gnome-terminal -e "bash -c '要打的指令; exec bash'"
+# a = " gnome-terminal -e \"bash -c \'要打的指令; exec bash\'\" "
+#os.system(a)
 
 
 a = os.popen('tasklist').readlines()  #執行cmd指令（但取值）
