@@ -1,11 +1,14 @@
 import sys
+from PyQt5.QtCore import Qt
 from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 class First_gui(QWidget):
-    def __init__(self):
-        super().__init__(self, windowTitle="我的第一個GUI")
+    def __init__(self, parent=None):
+        super(First_gui, self).__init__(parent)
+        self.setWindowTitle('my first gui')
         self.outputArea = QTextBrowser(self)
-        self.startButton = QPushButton(self.trUtf8("點我開始"), self)
+        self.startButton = QPushButton("點我開始")
         self.setLayout(QVBoxLayout())
         self.layout().addWidget(self.outputArea)
         self.layout().addWidget(self.startButton)
@@ -13,7 +16,7 @@ class First_gui(QWidget):
         self.startButton.clicked.connect(self.start)
 
     def start(self):
-        self.outputArea.append(self.trUtf8("歡迎使用我的第一個GUI！"))
+        self.outputArea.append("歡迎使用我的第一個GUI！")
 
 
 if __name__ == '__main__':
