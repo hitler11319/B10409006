@@ -36,7 +36,7 @@ datashape==0.4.5
 decorator==3.4.2
 Django==2.0.3
 docutils==0.12
-ecdsa==0.13
+ecdsa==0.13.3
 eth-abi==0.5.0
 eth-keys==0.1.0b4
 eth-tester==0.1.0b11
