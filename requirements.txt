@@ -58,7 +58,7 @@ jsonschema==2.4.0
 lazy-object-proxy==1.2.1
 llvmlite==0.5.0
 lru-dict==1.1.6
-lxml==3.4.4
+lxml==4.6.3
 macholib==1.8
 MarkupSafe==0.23
 matplotlib==1.4.3
