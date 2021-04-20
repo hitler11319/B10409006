@@ -83,7 +83,7 @@ Pillow==5.0.0
 ply==3.6
 psutil==2.2.1
 psycopg2==2.6.1
-py==1.4.27
+py==1.10.0
 py-geth==2.0.1
 py-solc==2.1.0
 py2exe==0.9.2.2
